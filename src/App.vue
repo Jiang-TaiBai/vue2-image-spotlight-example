@@ -276,6 +276,7 @@ export default {
   /*background-image: url("../src/assets/imgs/bg/double-bubble-outline.webp");*/
   /*background-image: url("../src/assets/imgs/bg/canadian-dollar.webp");*/
   background-image: url("../src/assets/imgs/bg/y-so-serious-white.png");
+  min-width: 780px;
 }
 
 .scroll {
@@ -328,10 +329,16 @@ export default {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
+@media screen and (max-width: 1403px) {
+  #main-area #editor-area {
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+}
+
 #main-area #editor-area {
   margin-right: 16px;
 }
-
 #main-area #renderer-area {
 }
 
