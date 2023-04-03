@@ -214,7 +214,9 @@ export default {
             :button-names="ConfigurationEditorCustom.buttonNames"
         />
         <div style="position: relative">
-          <el-button type="info" style="position: absolute; top: 10px; right: 10px; opacity: 20%" size="mini" @click="copyExportData">Copy</el-button>
+          <el-button type="info" style="position: absolute; top: 10px; right: 10px; opacity: 20%" size="mini"
+                     @click="copyExportData">Copy
+          </el-button>
           <div class="export-data">{{ JSON.stringify(exportData, null, 2) }}</div>
         </div>
       </div>
@@ -270,6 +272,12 @@ export default {
 </template>
 
 <style scoped>
+#app {
+  /*background-image: url("../src/assets/imgs/bg/double-bubble-outline.webp");*/
+  /*background-image: url("../src/assets/imgs/bg/canadian-dollar.webp");*/
+  background-image: url("../src/assets/imgs/bg/y-so-serious-white.png");
+}
+
 .scroll {
   display: flex;
   overflow: scroll;
@@ -311,7 +319,7 @@ export default {
 #main-area #editor-area, #main-area #renderer-area {
   border-radius: 8px;
   padding: 20px;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.6);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: all .2s;
 }
