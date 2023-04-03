@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Build-passing-%2396C40F" alt="Build-passing"/>
   <img src="https://img.shields.io/badge/Version-1.0.0-%231081C1" alt="Version-1.0.0"/>
-  <img src="https://img.shields.io/badge/License-MIT-%2396C40F" alt="License-MIT"/>
+  <img src="https://img.shields.io/badge/License-Apache-%2396C40F" alt="License-MIT"/>
   <img src="https://img.shields.io/badge/PoweredBy-Jiang_Liu-%2396C40F" alt="PoweredBy-Jiang_Liu"/>
 </div>
 
@@ -74,6 +74,6 @@ ImageSpotlight（图像聚光灯）实现了**新式互联网图像浏览模式*
 
 ## License
 
-vue2-image-spotlight-example项目采用[MIT开源协议](https://opensource.org/licenses/MIT)
+项目采用[Apache License 2.0开源协议](https://apache.org/licenses/LICENSE-2.0.txt)
 
 Copyright © 2023 Jiang Liu.
