@@ -10,7 +10,7 @@
     "element-ui": "^2.15.13",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
-    "vue2-image-spotlight": "^1.0.8"
+    "vue2-image-spotlight": "^1.0.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",

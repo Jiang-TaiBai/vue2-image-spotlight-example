@@ -4,6 +4,7 @@ import DataSpongeBob from "@/assets/js/Data-SpongeBob";
 import DataOrgans from "@/assets/js/Data-Organs";
 import ConfigurationEditorCustom from "@/assets/js/Configuration-Editor-Custom";
 import ConfigurationRendererCustom from "@/assets/js/Configuration-Renderer-Custom";
+import DataIPhone14 from "@/assets/js/Data-iPhone14";
 
 export default {
   data() {
@@ -12,6 +13,7 @@ export default {
         DataSpongeBob,
         DataOsiModel,
         DataOrgans,
+        DataIPhone14,
       ],
       ConfigurationEditorCustom: ConfigurationEditorCustom,
       ConfigurationRendererCustom: ConfigurationRendererCustom,
@@ -339,6 +341,7 @@ export default {
 #main-area #editor-area {
   margin-right: 16px;
 }
+
 #main-area #renderer-area {
 }
 
