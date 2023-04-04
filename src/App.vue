@@ -6,6 +6,8 @@ import ConfigurationEditorCustom from "@/assets/js/Configuration-Editor-Custom";
 import ConfigurationRendererCustom from "@/assets/js/Configuration-Renderer-Custom";
 import DataIPhone14 from "@/assets/js/Data-iPhone14";
 
+import VersionText from "@/assets/js/VersionText";
+
 export default {
   data() {
     return {
@@ -148,6 +150,7 @@ export default {
     }
   },
   mounted() {
+    console.log(VersionText)
     let that = this
     this.$refs.scroll.addEventListener('wheel', (event) => {
       event.preventDefault()
