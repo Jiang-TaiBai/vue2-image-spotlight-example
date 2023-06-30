@@ -286,7 +286,7 @@ export default {
 
 .scroll {
   display: flex;
-  overflow: scroll;
+  overflow: auto;
   width: 80vw;
   background: rgba(0, 0, 0, 0.4);
   padding: 8px;
@@ -353,7 +353,7 @@ export default {
   margin-top: 8px;
   width: 568px;
   max-height: 300px;
-  overflow: scroll;
+  overflow: auto;
   border-radius: 8px;
   padding: 20px;
   background: #371722;
